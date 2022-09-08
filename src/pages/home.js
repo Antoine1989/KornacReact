@@ -1,5 +1,5 @@
 import React from "react";
-
+import Carte from "../components/Carte";
 
 import Navigation from "../components/Navbar";
 
@@ -8,8 +8,9 @@ const Home = () => {
     <div>
       
       <Navigation />
-      
+      <Carte/>
     </div>
+    
   );
 };
 
